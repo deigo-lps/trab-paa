@@ -1,3 +1,4 @@
+import sys
 def countingSort(vet):
   output=[0]*len(vet)
 
@@ -22,6 +23,7 @@ def countingSort(vet):
   #coloca os elementos no vetor output
   i=len(vet)-1
   while i>=0:
+    sys.stdout.write("{}\r".format(i))
     output[count[vet[i]]-1]=vet[i]
     count[vet[i]]-=1
     i-=1

@@ -1,3 +1,4 @@
+import sys
 def bucketSort(vet):
   bucket=[]
   #cria os baldes
@@ -11,6 +12,7 @@ def bucketSort(vet):
 
   #ordena cada balde
   for i in range(len(vet)):
+    sys.stdout.write("{}\r".format(i))
     bucket[i]=sorted(bucket[i])
 
   #retorna elementos ao vetor

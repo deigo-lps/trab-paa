@@ -1,7 +1,109 @@
 QuickSort
 Desordenado
-2000 entradas: 0.00528264045715332
-20000 entradas: 0.038874149322509766
-200000 entradas: 0.5163788795471191
+1000 entradas: 0.0104179
+5000 entradas: 0.0278411
+10000 entradas: 0.0442255
 Ordenado
-2000 entradas: 0.2564857006072998
+1000 entradas: 0.0654833
+5000 entradas: 1.6275132
+10000 entradas: 6.568948
+Ordenado ao contrario
+1000 entradas: 0.0479908
+5000 entradas: 1.0856531
+10000 entradas: 4.2874932
+
+BucketSort
+Desordenado
+1000 entradas: 0.0024407
+5000 entradas: 0.0124502
+10000 entradas: 0.025733
+Ordenado
+1000 entradas: 0.0030429
+5000 entradas: 0.0152297
+10000 entradas: 0.025281
+Ordenado ao contrario
+1000 entradas: 0.0044947
+5000 entradas: 0.0131986
+10000 entradas: 0.0246944
+
+CountingSort
+Desordenado
+1000 entradas: 0.1052046
+5000 entradas: 0.1433651
+10000 entradas: 0.1375303
+Ordenado
+1000 entradas: 0.0021358
+5000 entradas: 0.0118732
+10000 entradas: 0.0278447
+Ordenado ao contrario
+1000 entradas: 0.0029278
+5000 entradas: 0.0145915
+10000 entradas: 0.0246236
+
+InsertionSort
+Desordenado
+1000 entradas: 0.0332594
+5000 entradas: 0.7550683
+10000 entradas: 3.0852857
+Ordenado
+1000 entradas: 0.0018106
+5000 entradas: 0.009294
+10000 entradas: 0.0200438
+Ordenado ao contrario
+1000 entradas: 0.0638642
+5000 entradas: 1.5178652
+10000 entradas: 6.1957664
+
+MergeSort
+Desordenado
+1000 entradas: 0.0229404
+5000 entradas: 0.1335621
+10000 entradas: 0.3240058
+Ordenado
+1000 entradas: 0.0202835
+5000 entradas: 0.1514182
+10000 entradas: 0.3121448
+Ordenado ao contrario
+1000 entradas: 0.0261204
+5000 entradas: 0.1569252
+10000 entradas: 0.3285596
+
+ShellSort
+Desordenado
+1000 entradas: 0.0175898
+5000 entradas: 0.1386921
+10000 entradas: 0.2774081
+Ordenado
+1000 entradas: 0.0166693
+5000 entradas: 0.1265714
+10000 entradas: 0.2924919
+Ordenado ao contrario
+1000 entradas: 0.0195711
+5000 entradas: 0.1327651
+10000 entradas: 0.3059969
+
+MEDIAS
+QuickSort Desordenado: 0.0274948
+QuickSort Ordenado: 2.7539815
+QuickSort Inverso: 1.8070457
+
+BucketSort Desordenado: 0.0135413
+BucketSort Ordenado: 0.0145179
+BucketSort Inverso: 0.0141292
+
+CountingSort Desordenado: 0.1287
+CountingSort Ordenado: 0.0139512
+CountingSort Inverso: 0.0140476
+
+InsertionSort Desordenado: 1.2912045
+InsertionSort Ordenado: 0.0103828
+InsertionSort Inverso: 2.5924986
+
+MergeSort Desordenado: 0.1601694
+MergeSort Ordenado: 0.1612822
+MergeSort Inverso: 0.1705351
+
+ShellSort Desordenado: 0.1445633
+ShellSort Ordenado: 0.1452442
+ShellSort Inverso: 0.1527777
+

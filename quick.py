@@ -1,3 +1,4 @@
+import sys
 def partition(vet,E,D):
   #escolhe o ultimo elemento como pivo
   pivo=vet[D]
@@ -19,6 +20,7 @@ def partition(vet,E,D):
   return i+1
 
 def quickSort(vet,E,D):
+  sys.stdout.write("{}\r".format(D))
   if E<D:
     aux = partition(vet,E,D)
     quickSort(vet, E, aux - 1)

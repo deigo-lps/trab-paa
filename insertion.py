@@ -1,6 +1,8 @@
+import sys
 def insertionSort(vet):
   #percorre o vetor a partir do segundo elemento armazenando ele em aux
   for i in range(1,len(vet)):
+    sys.stdout.write("{}\r".format(i))
     aux=vet[i]
     j=i-1
     #enquanto j for positivo, e o elemento na posição j for maior que aux
